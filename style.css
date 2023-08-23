@@ -1,0 +1,22 @@
+body {
+	background-color: black;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+#buttons {
+	display: flex;
+	flex-direction: row;
+}
+
+#numpad,
+#operators {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	max-width: 70px;
+}
